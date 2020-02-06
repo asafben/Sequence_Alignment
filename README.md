@@ -1,5 +1,8 @@
 # Sequence_Alignment
-A sequence aligner, that given two FASTA files, type of alignment, and a scoring matrix, will print the optimal alignment and its score. FASTA is a common format for biological sequence:  
+A sequence aligner, that given: two FASTA files, type of alignment, and a scoring matrix, will print the optimal alignment and its score. 
+The algorithm is using dynamic programming.  
+
+FASTA is a common format for biological sequence:  
 ">name of seq1  
 ACACGGTGGACCGGAT  
 AACACGGTAATACCAG"  
@@ -30,4 +33,4 @@ CAAGGTAAGAGGAGGGGAGCTTTGTTGTTGTTTTAACGTGTGTTAGTGAC
 
 AAAAAAAAAAAA  
 AAAAAAAAAAAA  
-global:2 0  
+global:20  
